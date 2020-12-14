@@ -29,9 +29,9 @@ class UserSeeder extends Seeder
         ]);
 
         DB::table('users')->insert([
-            'name' => 'Chinedu Nnorom',
-            'first_name' => 'Chinedu',
-            'last_name' => 'Nnorom',
+            'name' => 'Sandeep Pardeshi',
+            'first_name' => 'Sandeep',
+            'last_name' => 'Pardeshi',
             'user_image' => '150.png',
             'mobile_number' => '123456789',
             'email'=>'random@gmail.com',
